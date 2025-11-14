@@ -20,7 +20,7 @@ Execute the C Program for the desired output.
 # PROGRAM:
 
 ## 1.To Write a C program that illustrates files copying 
-
+```
 #include <unistd.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -36,13 +36,13 @@ while((nread = read(in,block,sizeof(block))) > 0)
 write(out,block,nread);
 exit(0);}
 
-
+```
 
 
 
 ## 2.To Write a C program that illustrates files locking
 
-
+```
 #include <fcntl.h>
 #include <stdio.h>
 #include <string.h>
@@ -81,13 +81,13 @@ close (fd);
 return 0;
 }
 
-
+```
 
 ## OUTPUT
 
-
+## 1.To Write a C program that illustrates files copying 
 <img width="1038" height="105" alt="image" src="https://github.com/user-attachments/assets/d4f3d46f-8e7c-439c-801c-9f96fdc4cffa" />
-
+## 2.To Write a C program that illustrates files locking
 <img width="885" height="571" alt="image" src="https://github.com/user-attachments/assets/9aa7fed9-11d8-43ea-a1e0-23b3ff4268f4" />
 
 
